@@ -1,0 +1,52 @@
+.video-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 3%;
+    margin-left: 3%;
+
+}
+
+.video-thumbnail {
+    width: 363px;
+    height: 204px;
+    background-color: #ccc;
+    border-radius: 12px;
+}
+
+.profile-pic {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 10px;
+
+}
+
+.video-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+}
+
+.video-title {
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.channel-name {
+    font-size: 14px;
+    color: #888;
+}
+
+.video-views-time {
+    font-size: 14px;
+    color: #888;
+
+}
+
+.container-info {
+    display: flex;
+    margin-top: 2%;
+}
