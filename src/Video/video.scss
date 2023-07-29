@@ -4,14 +4,32 @@
     margin-bottom: 20px;
     margin-top: 3%;
     margin-left: 3%;
-
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .video-thumbnail {
+    position: relative;
     width: 363px;
     height: 204px;
     background-color: #ccc;
     border-radius: 12px;
+    background-image: url("../../img/Thumbnail-test1.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.video-duration {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    padding: 2px 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 4px;
+    font-size: small;
+
 }
 
 .profile-pic {
@@ -27,6 +45,7 @@
     display: flex;
     flex-direction: column;
     margin-right: 2%;
+    /* Empêche les vidéos de se rétrécir */
 }
 
 .video-title {
